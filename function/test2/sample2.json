@@ -1,0 +1,18 @@
+{
+    "markets": {
+        "us": [
+            {
+                "stock": ".DJI:INDEXDJX",
+                "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+                "name": "Dow Jones",
+                "price": 38852.86,
+                "price_movement": {
+                    "percentage": 0.55472934,
+                    "value": 216.73047,
+                    "movement": "Down"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+package main
+
+import (
+	"fmt"
+	"io"
+	"log"
+	"net/http"
+	"net/url"
+	"time"
+)
+
+const INDEX_URL = "https://serpapi.com/search.json"
+const FUTURE_URL = "https://www.cboe.com/us/futures/market_statistics/settlement/csv"
+
+func main() {
+	index()
+	future()
+}
+
+func index() {
+	u, err := url.Parse(INDEX_URL)
+	if err != nil {
+		log.Fatal(err)
+	}
+	q := u.Query()
+	q.Set("engine", "google_finance")
+	q.Set("q", "VIX:INDEXCBOE")
+	q.Set("api_key", "xxxx")
+	u.RawQuery = q.Encode()
+
+	resp, err := http.Get(u.String())
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(string(content))
+}
+
+func future() {
+	today := time.Now()
+	yesterday := today.AddDate(0, 0, -1)
+	dt := yesterday.Format("2006-01-02")
+
+	u, err := url.Parse(FUTURE_URL)
+	if err != nil {
+		log.Fatal(err)
+	}
+	q := u.Query()
+	q.Set("dt", dt)
+	u.RawQuery = q.Encode()
+
+	resp, err := http.Get(u.String())
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(string(content))
+}

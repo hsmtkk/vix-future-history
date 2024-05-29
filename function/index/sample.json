@@ -1,0 +1,2623 @@
+{
+    "search_metadata": {
+        "id": "665696ee3824276e6f1c6092",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/6b0f9d48040119d2/665696ee3824276e6f1c6092.json",
+        "created_at": "2024-05-29 02:46:06 UTC",
+        "processed_at": "2024-05-29 02:46:06 UTC",
+        "google_finance_url": "https://www.google.com/finance/quote/VIX:INDEXCBOE?hl=en",
+        "raw_html_file": "https://serpapi.com/searches/6b0f9d48040119d2/665696ee3824276e6f1c6092.html",
+        "total_time_taken": 1.87
+    },
+    "search_parameters": {
+        "engine": "google_finance",
+        "q": "VIX:INDEXCBOE",
+        "hl": "en"
+    },
+    "markets": {
+        "us": [
+            {
+                "stock": ".DJI:INDEXDJX",
+                "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+                "name": "Dow Jones",
+                "price": 38852.86,
+                "price_movement": {
+                    "percentage": 0.55472934,
+                    "value": 216.73047,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": ".INX:INDEXSP",
+                "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+                "name": "S&P 500",
+                "price": 5306.04,
+                "price_movement": {
+                    "percentage": 0.024880186,
+                    "value": 1.3198242,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": ".IXIC:INDEXNASDAQ",
+                "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+                "name": "Nasdaq",
+                "price": 17019.88,
+                "price_movement": {
+                    "percentage": 0.5855868,
+                    "value": 99.08594,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "RUT:INDEXRUSSELL",
+                "link": "https://www.google.com/finance/quote/RUT:INDEXRUSSELL",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=RUT%3AINDEXRUSSELL",
+                "name": "Russell",
+                "price": 2066.851,
+                "price_movement": {
+                    "percentage": 0.13609192,
+                    "value": 2.8166504,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "VIX:INDEXCBOE",
+                "link": "https://www.google.com/finance/quote/VIX:INDEXCBOE",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=VIX%3AINDEXCBOE",
+                "name": "VIX",
+                "price": 12.92,
+                "price_movement": {
+                    "percentage": 4.530748,
+                    "value": 0.5600004,
+                    "movement": "Up"
+                }
+            }
+        ],
+        "europe": [
+            {
+                "stock": "DAX:INDEXDB",
+                "link": "https://www.google.com/finance/quote/DAX:INDEXDB",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DAX%3AINDEXDB",
+                "name": "DAX",
+                "price": 18677.87,
+                "price_movement": {
+                    "percentage": 0.5158098,
+                    "value": 96.8418,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "UKX:INDEXFTSE",
+                "link": "https://www.google.com/finance/quote/UKX:INDEXFTSE",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=UKX%3AINDEXFTSE",
+                "name": "FTSE 100",
+                "price": 8254.18,
+                "price_movement": {
+                    "percentage": 0.7623621,
+                    "value": 63.410156,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "PX1:INDEXEURO",
+                "link": "https://www.google.com/finance/quote/PX1:INDEXEURO",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PX1%3AINDEXEURO",
+                "name": "CAC 40",
+                "price": 8057.8,
+                "price_movement": {
+                    "percentage": 0.91842014,
+                    "value": 74.69043,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "INDI:INDEXBME",
+                "link": "https://www.google.com/finance/quote/INDI:INDEXBME",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=INDI%3AINDEXBME",
+                "name": "IBEX 35",
+                "price": 11276.0,
+                "price_movement": {
+                    "percentage": 0.4370668,
+                    "value": 49.5,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "SX5E:INDEXSTOXX",
+                "link": "https://www.google.com/finance/quote/SX5E:INDEXSTOXX",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SX5E%3AINDEXSTOXX",
+                "name": "STOXX 50",
+                "price": 5030.35,
+                "price_movement": {
+                    "percentage": 0.57025015,
+                    "value": 28.850098,
+                    "movement": "Down"
+                }
+            }
+        ],
+        "asia": [
+            {
+                "stock": "NI225:INDEXNIKKEI",
+                "link": "https://www.google.com/finance/quote/NI225:INDEXNIKKEI",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NI225%3AINDEXNIKKEI",
+                "name": "Nikkei 225",
+                "price": 38803.3,
+                "price_movement": {
+                    "percentage": 0.1340106,
+                    "value": 52.070313,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "000001:SHA",
+                "link": "https://www.google.com/finance/quote/000001:SHA",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=000001%3ASHA",
+                "name": "SSE",
+                "price": 3119.5227,
+                "price_movement": {
+                    "percentage": 0.32000172,
+                    "value": 9.950684,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "HSI:INDEXHANGSENG",
+                "link": "https://www.google.com/finance/quote/HSI:INDEXHANGSENG",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=HSI%3AINDEXHANGSENG",
+                "name": "HSI",
+                "price": 18555.5,
+                "price_movement": {
+                    "percentage": 1.4114972,
+                    "value": 265.66016,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "SENSEX:INDEXBOM",
+                "link": "https://www.google.com/finance/quote/SENSEX:INDEXBOM",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SENSEX%3AINDEXBOM",
+                "name": "SENSEX",
+                "price": 75170.45,
+                "price_movement": {
+                    "percentage": 0.29187614,
+                    "value": 220.04688,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "NIFTY_50:INDEXNSE",
+                "link": "https://www.google.com/finance/quote/NIFTY_50:INDEXNSE",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NIFTY_50%3AINDEXNSE",
+                "name": "NIFTY 50",
+                "price": 22888.15,
+                "price_movement": {
+                    "percentage": 0.19317093,
+                    "value": 44.29883,
+                    "movement": "Down"
+                }
+            }
+        ],
+        "currencies": [
+            {
+                "stock": "EUR-USD",
+                "link": "https://www.google.com/finance/quote/EUR-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=EUR-USD",
+                "name": "EUR / USD",
+                "price": 1.0847849999999999,
+                "price_movement": {
+                    "percentage": 0.05205694015756657,
+                    "value": 0.0005650000000001487,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "USD-JPY",
+                "link": "https://www.google.com/finance/quote/USD-JPY",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=USD-JPY",
+                "name": "USD / JPY",
+                "price": 157.244,
+                "price_movement": {
+                    "percentage": 0.014306924869573594,
+                    "value": 0.022500000000007958,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "GBP-USD",
+                "link": "https://www.google.com/finance/quote/GBP-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GBP-USD",
+                "name": "GBP / USD",
+                "price": 1.27538,
+                "price_movement": {
+                    "percentage": 0.0309615723775684,
+                    "value": 0.0003949999999999232,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "USD-CAD",
+                "link": "https://www.google.com/finance/quote/USD-CAD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=USD-CAD",
+                "name": "USD / CAD",
+                "price": 1.365645,
+                "price_movement": {
+                    "percentage": 0.05824815913837427,
+                    "value": 0.0007950000000001012,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "AUD-USD",
+                "link": "https://www.google.com/finance/quote/AUD-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AUD-USD",
+                "name": "AUD / USD",
+                "price": 0.6653549999999999,
+                "price_movement": {
+                    "percentage": 0.0864947802280442,
+                    "value": 0.0005749999999999922,
+                    "movement": "Up"
+                }
+            }
+        ],
+        "crypto": [
+            {
+                "stock": "BTC-USD",
+                "link": "https://www.google.com/finance/quote/BTC-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BTC-USD",
+                "name": "Bitcoin",
+                "price": 68563.5,
+                "price_movement": {
+                    "percentage": 0.35362014229696664,
+                    "value": 241.59999999999127,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "ETH-USD",
+                "link": "https://www.google.com/finance/quote/ETH-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ETH-USD",
+                "name": "Ethereum",
+                "price": 3844.34,
+                "price_movement": {
+                    "percentage": 0.11354225803259722,
+                    "value": 4.360000000000127,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "ADA-USD",
+                "link": "https://www.google.com/finance/quote/ADA-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ADA-USD",
+                "name": "Cardano",
+                "price": 0.4597828742,
+                "price_movement": {
+                    "percentage": 0.5787953452813016,
+                    "value": 0.0026458876000000076,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "XRP-USD",
+                "link": "https://www.google.com/finance/quote/XRP-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=XRP-USD",
+                "name": "XRP",
+                "price": 0.527084923,
+                "price_movement": {
+                    "percentage": 0.2183020968126051,
+                    "value": 0.0011531548000000003,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "DOGE-USD",
+                "link": "https://www.google.com/finance/quote/DOGE-USD",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DOGE-USD",
+                "name": "Dogecoin",
+                "price": 0.167156313,
+                "price_movement": {
+                    "percentage": 1.339816125432997,
+                    "value": 0.002209977599999996,
+                    "movement": "Up"
+                }
+            }
+        ],
+        "futures": [
+            {
+                "stock": "YMW00:CBOT",
+                "link": "https://www.google.com/finance/quote/YMW00:CBOT",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=YMW00%3ACBOT",
+                "name": "Dow Futures",
+                "price": 38860.0,
+                "currency": "USD",
+                "price_movement": {
+                    "percentage": 0.21569432,
+                    "value": 84.0,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "ESW00:CME_EMINIS",
+                "link": "https://www.google.com/finance/quote/ESW00:CME_EMINIS",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ESW00%3ACME_EMINIS",
+                "name": "S&P Futures",
+                "price": 5313.25,
+                "currency": "USD",
+                "price_movement": {
+                    "percentage": 0.21597259,
+                    "value": 11.5,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "NQW00:CME_EMINIS",
+                "link": "https://www.google.com/finance/quote/NQW00:CME_EMINIS",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NQW00%3ACME_EMINIS",
+                "name": "Nasdaq Futures",
+                "price": 18907.0,
+                "currency": "USD",
+                "price_movement": {
+                    "percentage": 0.17686968,
+                    "value": 33.5,
+                    "movement": "Down"
+                }
+            },
+            {
+                "stock": "GCW00:COMEX",
+                "link": "https://www.google.com/finance/quote/GCW00:COMEX",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GCW00%3ACOMEX",
+                "name": "Gold",
+                "price": 2383.60009765625,
+                "currency": "USD",
+                "price_movement": {
+                    "percentage": 0.18072747,
+                    "value": 4.300049,
+                    "movement": "Up"
+                }
+            },
+            {
+                "stock": "CLW00:NYMEX",
+                "link": "https://www.google.com/finance/quote/CLW00:NYMEX",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=CLW00%3ANYMEX",
+                "name": "Crude Oil",
+                "price": 80.1500015258789,
+                "currency": "USD",
+                "price_movement": {
+                    "percentage": 0.40085143,
+                    "value": 0.3199997,
+                    "movement": "Up"
+                }
+            }
+        ],
+        "top_news": {
+            "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-masks-weak-breadth-cava-earnings/",
+            "snippet": "Dow Jones Futures: Surging Nvidia Masks Market Weakness; Hot IPO Cava Falls Late",
+            "source": "Investor's Business Daily",
+            "date": "2 hours ago"
+        }
+    },
+    "summary": {
+        "title": "VIX",
+        "stock": "VIX",
+        "exchange": "Index",
+        "price": "12.92",
+        "extracted_price": 12.92,
+        "price_movement": {
+            "percentage": 4.530748,
+            "value": 0.5600004,
+            "movement": "Up"
+        },
+        "extensions": [
+            "May 28, 3:15:01 PM GMT-5",
+            "INDEXCBOE"
+        ]
+    },
+    "graph": [
+        {
+            "price": 12.5,
+            "date": "May 28 2024, 08:32 AM UTC-05:00"
+        },
+        {
+            "price": 12.5,
+            "date": "May 28 2024, 08:33 AM UTC-05:00"
+        },
+        {
+            "price": 12.5,
+            "date": "May 28 2024, 08:34 AM UTC-05:00"
+        },
+        {
+            "price": 12.47,
+            "date": "May 28 2024, 08:35 AM UTC-05:00"
+        },
+        {
+            "price": 12.51,
+            "date": "May 28 2024, 08:36 AM UTC-05:00"
+        },
+        {
+            "price": 12.54,
+            "date": "May 28 2024, 08:37 AM UTC-05:00"
+        },
+        {
+            "price": 12.58,
+            "date": "May 28 2024, 08:38 AM UTC-05:00"
+        },
+        {
+            "price": 12.59,
+            "date": "May 28 2024, 08:39 AM UTC-05:00"
+        },
+        {
+            "price": 12.59,
+            "date": "May 28 2024, 08:40 AM UTC-05:00"
+        },
+        {
+            "price": 12.61,
+            "date": "May 28 2024, 08:41 AM UTC-05:00"
+        },
+        {
+            "price": 12.62,
+            "date": "May 28 2024, 08:42 AM UTC-05:00"
+        },
+        {
+            "price": 12.65,
+            "date": "May 28 2024, 08:43 AM UTC-05:00"
+        },
+        {
+            "price": 12.63,
+            "date": "May 28 2024, 08:44 AM UTC-05:00"
+        },
+        {
+            "price": 12.65,
+            "date": "May 28 2024, 08:45 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 08:46 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 08:47 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 08:48 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 08:49 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 08:50 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 08:51 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 08:52 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 08:53 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 08:54 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 08:55 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 08:56 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 08:57 AM UTC-05:00"
+        },
+        {
+            "price": 12.87,
+            "date": "May 28 2024, 08:58 AM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 08:59 AM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 09:00 AM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 09:01 AM UTC-05:00"
+        },
+        {
+            "price": 12.93,
+            "date": "May 28 2024, 09:02 AM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 09:03 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 09:04 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 09:05 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 09:06 AM UTC-05:00"
+        },
+        {
+            "price": 12.86,
+            "date": "May 28 2024, 09:07 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:08 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:09 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:10 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:11 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:12 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:13 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 09:14 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 09:15 AM UTC-05:00"
+        },
+        {
+            "price": 12.86,
+            "date": "May 28 2024, 09:16 AM UTC-05:00"
+        },
+        {
+            "price": 12.84,
+            "date": "May 28 2024, 09:17 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 09:18 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:19 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:20 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:21 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:22 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 09:23 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 09:24 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:25 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 09:26 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 09:27 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 09:28 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 09:29 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 09:30 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 09:31 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:32 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 09:33 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 09:34 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 09:35 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 09:36 AM UTC-05:00"
+        },
+        {
+            "price": 12.84,
+            "date": "May 28 2024, 09:37 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 09:38 AM UTC-05:00"
+        },
+        {
+            "price": 12.86,
+            "date": "May 28 2024, 09:39 AM UTC-05:00"
+        },
+        {
+            "price": 12.9,
+            "date": "May 28 2024, 09:40 AM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 09:41 AM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 09:42 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 09:43 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 09:44 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 09:45 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 09:46 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 09:47 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:48 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:49 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:50 AM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 09:51 AM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 09:52 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:53 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:54 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:55 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:56 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 09:57 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 09:58 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 09:59 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 10:00 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 10:01 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 10:02 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 10:03 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 10:04 AM UTC-05:00"
+        },
+        {
+            "price": 12.84,
+            "date": "May 28 2024, 10:05 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 10:06 AM UTC-05:00"
+        },
+        {
+            "price": 12.85,
+            "date": "May 28 2024, 10:07 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 10:08 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 10:09 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 10:10 AM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 10:11 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 10:12 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 10:13 AM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 10:14 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 10:15 AM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 10:16 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 10:17 AM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 10:18 AM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 10:19 AM UTC-05:00"
+        },
+        {
+            "price": 12.79,
+            "date": "May 28 2024, 10:20 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 10:21 AM UTC-05:00"
+        },
+        {
+            "price": 12.78,
+            "date": "May 28 2024, 10:22 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 10:23 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:24 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:25 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:26 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:27 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:28 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:29 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:30 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:31 AM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 10:32 AM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 10:33 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 10:34 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 10:35 AM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 10:36 AM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 10:37 AM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 10:38 AM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 10:39 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 10:40 AM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 10:41 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 10:42 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 10:43 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 10:44 AM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 10:45 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 10:46 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 10:47 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 10:48 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 10:49 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 10:50 AM UTC-05:00"
+        },
+        {
+            "price": 12.69,
+            "date": "May 28 2024, 10:51 AM UTC-05:00"
+        },
+        {
+            "price": 12.69,
+            "date": "May 28 2024, 10:52 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 10:53 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 10:54 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 10:55 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 10:56 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 10:57 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 10:58 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 10:59 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:00 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:01 AM UTC-05:00"
+        },
+        {
+            "price": 12.66,
+            "date": "May 28 2024, 11:02 AM UTC-05:00"
+        },
+        {
+            "price": 12.65,
+            "date": "May 28 2024, 11:03 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:04 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 11:05 AM UTC-05:00"
+        },
+        {
+            "price": 12.69,
+            "date": "May 28 2024, 11:06 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:07 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:08 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:09 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:10 AM UTC-05:00"
+        },
+        {
+            "price": 12.69,
+            "date": "May 28 2024, 11:11 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 11:12 AM UTC-05:00"
+        },
+        {
+            "price": 12.64,
+            "date": "May 28 2024, 11:13 AM UTC-05:00"
+        },
+        {
+            "price": 12.64,
+            "date": "May 28 2024, 11:14 AM UTC-05:00"
+        },
+        {
+            "price": 12.64,
+            "date": "May 28 2024, 11:15 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:16 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:17 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:18 AM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 11:19 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:20 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:21 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:22 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:23 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:24 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:25 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:26 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:27 AM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 11:28 AM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 11:29 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:30 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:31 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:32 AM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 11:33 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:34 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:35 AM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 11:36 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:37 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:38 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:39 AM UTC-05:00"
+        },
+        {
+            "price": 12.64,
+            "date": "May 28 2024, 11:40 AM UTC-05:00"
+        },
+        {
+            "price": 12.64,
+            "date": "May 28 2024, 11:41 AM UTC-05:00"
+        },
+        {
+            "price": 12.63,
+            "date": "May 28 2024, 11:42 AM UTC-05:00"
+        },
+        {
+            "price": 12.63,
+            "date": "May 28 2024, 11:43 AM UTC-05:00"
+        },
+        {
+            "price": 12.63,
+            "date": "May 28 2024, 11:44 AM UTC-05:00"
+        },
+        {
+            "price": 12.63,
+            "date": "May 28 2024, 11:45 AM UTC-05:00"
+        },
+        {
+            "price": 12.62,
+            "date": "May 28 2024, 11:46 AM UTC-05:00"
+        },
+        {
+            "price": 12.62,
+            "date": "May 28 2024, 11:47 AM UTC-05:00"
+        },
+        {
+            "price": 12.61,
+            "date": "May 28 2024, 11:48 AM UTC-05:00"
+        },
+        {
+            "price": 12.62,
+            "date": "May 28 2024, 11:49 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:50 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:51 AM UTC-05:00"
+        },
+        {
+            "price": 12.64,
+            "date": "May 28 2024, 11:52 AM UTC-05:00"
+        },
+        {
+            "price": 12.65,
+            "date": "May 28 2024, 11:53 AM UTC-05:00"
+        },
+        {
+            "price": 12.65,
+            "date": "May 28 2024, 11:54 AM UTC-05:00"
+        },
+        {
+            "price": 12.67,
+            "date": "May 28 2024, 11:55 AM UTC-05:00"
+        },
+        {
+            "price": 12.68,
+            "date": "May 28 2024, 11:56 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:57 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 11:58 AM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 11:59 AM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 12:00 PM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 12:01 PM UTC-05:00"
+        },
+        {
+            "price": 12.7,
+            "date": "May 28 2024, 12:02 PM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 12:03 PM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 12:04 PM UTC-05:00"
+        },
+        {
+            "price": 12.82,
+            "date": "May 28 2024, 12:05 PM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 12:06 PM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 12:07 PM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 12:08 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:09 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:10 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:11 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:12 PM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 12:13 PM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 12:14 PM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 12:15 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:16 PM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 12:17 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:18 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:19 PM UTC-05:00"
+        },
+        {
+            "price": 12.71,
+            "date": "May 28 2024, 12:20 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:21 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:22 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:23 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:24 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:25 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:26 PM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 12:27 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:28 PM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 12:29 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:30 PM UTC-05:00"
+        },
+        {
+            "price": 12.77,
+            "date": "May 28 2024, 12:31 PM UTC-05:00"
+        },
+        {
+            "price": 12.76,
+            "date": "May 28 2024, 12:32 PM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 12:33 PM UTC-05:00"
+        },
+        {
+            "price": 12.74,
+            "date": "May 28 2024, 12:34 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:35 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:36 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:37 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:38 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:39 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:40 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:41 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:42 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:43 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 12:44 PM UTC-05:00"
+        },
+        {
+            "price": 12.72,
+            "date": "May 28 2024, 12:45 PM UTC-05:00"
+        },
+        {
+            "price": 12.75,
+            "date": "May 28 2024, 12:46 PM UTC-05:00"
+        },
+        {
+            "price": 12.84,
+            "date": "May 28 2024, 12:47 PM UTC-05:00"
+        },
+        {
+            "price": 12.8,
+            "date": "May 28 2024, 12:48 PM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 12:49 PM UTC-05:00"
+        },
+        {
+            "price": 12.84,
+            "date": "May 28 2024, 12:50 PM UTC-05:00"
+        },
+        {
+            "price": 12.91,
+            "date": "May 28 2024, 12:51 PM UTC-05:00"
+        },
+        {
+            "price": 12.98,
+            "date": "May 28 2024, 12:52 PM UTC-05:00"
+        },
+        {
+            "price": 13.03,
+            "date": "May 28 2024, 12:53 PM UTC-05:00"
+        },
+        {
+            "price": 12.99,
+            "date": "May 28 2024, 12:54 PM UTC-05:00"
+        },
+        {
+            "price": 13.01,
+            "date": "May 28 2024, 12:55 PM UTC-05:00"
+        },
+        {
+            "price": 13.03,
+            "date": "May 28 2024, 12:56 PM UTC-05:00"
+        },
+        {
+            "price": 13.04,
+            "date": "May 28 2024, 12:57 PM UTC-05:00"
+        },
+        {
+            "price": 13.0,
+            "date": "May 28 2024, 12:58 PM UTC-05:00"
+        },
+        {
+            "price": 12.98,
+            "date": "May 28 2024, 12:59 PM UTC-05:00"
+        },
+        {
+            "price": 12.98,
+            "date": "May 28 2024, 01:00 PM UTC-05:00"
+        },
+        {
+            "price": 13.0,
+            "date": "May 28 2024, 01:01 PM UTC-05:00"
+        },
+        {
+            "price": 13.02,
+            "date": "May 28 2024, 01:02 PM UTC-05:00"
+        },
+        {
+            "price": 13.04,
+            "date": "May 28 2024, 01:03 PM UTC-05:00"
+        },
+        {
+            "price": 12.99,
+            "date": "May 28 2024, 01:04 PM UTC-05:00"
+        },
+        {
+            "price": 12.95,
+            "date": "May 28 2024, 01:05 PM UTC-05:00"
+        },
+        {
+            "price": 12.93,
+            "date": "May 28 2024, 01:06 PM UTC-05:00"
+        },
+        {
+            "price": 12.91,
+            "date": "May 28 2024, 01:07 PM UTC-05:00"
+        },
+        {
+            "price": 12.91,
+            "date": "May 28 2024, 01:08 PM UTC-05:00"
+        },
+        {
+            "price": 12.92,
+            "date": "May 28 2024, 01:09 PM UTC-05:00"
+        },
+        {
+            "price": 12.92,
+            "date": "May 28 2024, 01:10 PM UTC-05:00"
+        },
+        {
+            "price": 12.9,
+            "date": "May 28 2024, 01:11 PM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 01:12 PM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 01:13 PM UTC-05:00"
+        },
+        {
+            "price": 12.91,
+            "date": "May 28 2024, 01:14 PM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 01:15 PM UTC-05:00"
+        },
+        {
+            "price": 12.92,
+            "date": "May 28 2024, 01:16 PM UTC-05:00"
+        },
+        {
+            "price": 12.93,
+            "date": "May 28 2024, 01:17 PM UTC-05:00"
+        },
+        {
+            "price": 12.93,
+            "date": "May 28 2024, 01:18 PM UTC-05:00"
+        },
+        {
+            "price": 12.96,
+            "date": "May 28 2024, 01:19 PM UTC-05:00"
+        },
+        {
+            "price": 12.94,
+            "date": "May 28 2024, 01:20 PM UTC-05:00"
+        },
+        {
+            "price": 12.96,
+            "date": "May 28 2024, 01:21 PM UTC-05:00"
+        },
+        {
+            "price": 13.0,
+            "date": "May 28 2024, 01:22 PM UTC-05:00"
+        },
+        {
+            "price": 13.04,
+            "date": "May 28 2024, 01:23 PM UTC-05:00"
+        },
+        {
+            "price": 13.03,
+            "date": "May 28 2024, 01:24 PM UTC-05:00"
+        },
+        {
+            "price": 13.04,
+            "date": "May 28 2024, 01:25 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 01:26 PM UTC-05:00"
+        },
+        {
+            "price": 13.06,
+            "date": "May 28 2024, 01:27 PM UTC-05:00"
+        },
+        {
+            "price": 13.05,
+            "date": "May 28 2024, 01:28 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 01:29 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 01:30 PM UTC-05:00"
+        },
+        {
+            "price": 13.23,
+            "date": "May 28 2024, 01:31 PM UTC-05:00"
+        },
+        {
+            "price": 13.23,
+            "date": "May 28 2024, 01:32 PM UTC-05:00"
+        },
+        {
+            "price": 13.3,
+            "date": "May 28 2024, 01:33 PM UTC-05:00"
+        },
+        {
+            "price": 13.28,
+            "date": "May 28 2024, 01:34 PM UTC-05:00"
+        },
+        {
+            "price": 13.33,
+            "date": "May 28 2024, 01:35 PM UTC-05:00"
+        },
+        {
+            "price": 13.37,
+            "date": "May 28 2024, 01:36 PM UTC-05:00"
+        },
+        {
+            "price": 13.36,
+            "date": "May 28 2024, 01:37 PM UTC-05:00"
+        },
+        {
+            "price": 13.4,
+            "date": "May 28 2024, 01:38 PM UTC-05:00"
+        },
+        {
+            "price": 13.42,
+            "date": "May 28 2024, 01:39 PM UTC-05:00"
+        },
+        {
+            "price": 13.38,
+            "date": "May 28 2024, 01:40 PM UTC-05:00"
+        },
+        {
+            "price": 13.3,
+            "date": "May 28 2024, 01:41 PM UTC-05:00"
+        },
+        {
+            "price": 13.26,
+            "date": "May 28 2024, 01:42 PM UTC-05:00"
+        },
+        {
+            "price": 13.27,
+            "date": "May 28 2024, 01:43 PM UTC-05:00"
+        },
+        {
+            "price": 13.34,
+            "date": "May 28 2024, 01:44 PM UTC-05:00"
+        },
+        {
+            "price": 13.35,
+            "date": "May 28 2024, 01:45 PM UTC-05:00"
+        },
+        {
+            "price": 13.33,
+            "date": "May 28 2024, 01:46 PM UTC-05:00"
+        },
+        {
+            "price": 13.41,
+            "date": "May 28 2024, 01:47 PM UTC-05:00"
+        },
+        {
+            "price": 13.4,
+            "date": "May 28 2024, 01:48 PM UTC-05:00"
+        },
+        {
+            "price": 13.37,
+            "date": "May 28 2024, 01:49 PM UTC-05:00"
+        },
+        {
+            "price": 13.37,
+            "date": "May 28 2024, 01:50 PM UTC-05:00"
+        },
+        {
+            "price": 13.41,
+            "date": "May 28 2024, 01:51 PM UTC-05:00"
+        },
+        {
+            "price": 13.37,
+            "date": "May 28 2024, 01:52 PM UTC-05:00"
+        },
+        {
+            "price": 13.37,
+            "date": "May 28 2024, 01:53 PM UTC-05:00"
+        },
+        {
+            "price": 13.34,
+            "date": "May 28 2024, 01:54 PM UTC-05:00"
+        },
+        {
+            "price": 13.35,
+            "date": "May 28 2024, 01:55 PM UTC-05:00"
+        },
+        {
+            "price": 13.25,
+            "date": "May 28 2024, 01:56 PM UTC-05:00"
+        },
+        {
+            "price": 13.24,
+            "date": "May 28 2024, 01:57 PM UTC-05:00"
+        },
+        {
+            "price": 13.19,
+            "date": "May 28 2024, 01:58 PM UTC-05:00"
+        },
+        {
+            "price": 13.13,
+            "date": "May 28 2024, 01:59 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 02:00 PM UTC-05:00"
+        },
+        {
+            "price": 13.13,
+            "date": "May 28 2024, 02:01 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:02 PM UTC-05:00"
+        },
+        {
+            "price": 13.1,
+            "date": "May 28 2024, 02:03 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:04 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:05 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 02:06 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:07 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:08 PM UTC-05:00"
+        },
+        {
+            "price": 13.13,
+            "date": "May 28 2024, 02:09 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:10 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:11 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 02:12 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:13 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:14 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:15 PM UTC-05:00"
+        },
+        {
+            "price": 13.19,
+            "date": "May 28 2024, 02:16 PM UTC-05:00"
+        },
+        {
+            "price": 13.19,
+            "date": "May 28 2024, 02:17 PM UTC-05:00"
+        },
+        {
+            "price": 13.19,
+            "date": "May 28 2024, 02:18 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 02:19 PM UTC-05:00"
+        },
+        {
+            "price": 13.13,
+            "date": "May 28 2024, 02:20 PM UTC-05:00"
+        },
+        {
+            "price": 13.13,
+            "date": "May 28 2024, 02:21 PM UTC-05:00"
+        },
+        {
+            "price": 13.13,
+            "date": "May 28 2024, 02:22 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:23 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:24 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:25 PM UTC-05:00"
+        },
+        {
+            "price": 13.06,
+            "date": "May 28 2024, 02:26 PM UTC-05:00"
+        },
+        {
+            "price": 13.09,
+            "date": "May 28 2024, 02:27 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:28 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:29 PM UTC-05:00"
+        },
+        {
+            "price": 13.2,
+            "date": "May 28 2024, 02:30 PM UTC-05:00"
+        },
+        {
+            "price": 13.15,
+            "date": "May 28 2024, 02:31 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:32 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:33 PM UTC-05:00"
+        },
+        {
+            "price": 13.08,
+            "date": "May 28 2024, 02:34 PM UTC-05:00"
+        },
+        {
+            "price": 13.07,
+            "date": "May 28 2024, 02:35 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:36 PM UTC-05:00"
+        },
+        {
+            "price": 13.1,
+            "date": "May 28 2024, 02:37 PM UTC-05:00"
+        },
+        {
+            "price": 13.06,
+            "date": "May 28 2024, 02:38 PM UTC-05:00"
+        },
+        {
+            "price": 13.11,
+            "date": "May 28 2024, 02:39 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:40 PM UTC-05:00"
+        },
+        {
+            "price": 13.1,
+            "date": "May 28 2024, 02:41 PM UTC-05:00"
+        },
+        {
+            "price": 13.14,
+            "date": "May 28 2024, 02:42 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:43 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:44 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:45 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:46 PM UTC-05:00"
+        },
+        {
+            "price": 13.08,
+            "date": "May 28 2024, 02:47 PM UTC-05:00"
+        },
+        {
+            "price": 13.08,
+            "date": "May 28 2024, 02:48 PM UTC-05:00"
+        },
+        {
+            "price": 13.1,
+            "date": "May 28 2024, 02:49 PM UTC-05:00"
+        },
+        {
+            "price": 13.12,
+            "date": "May 28 2024, 02:50 PM UTC-05:00"
+        },
+        {
+            "price": 13.07,
+            "date": "May 28 2024, 02:51 PM UTC-05:00"
+        },
+        {
+            "price": 13.08,
+            "date": "May 28 2024, 02:52 PM UTC-05:00"
+        },
+        {
+            "price": 13.04,
+            "date": "May 28 2024, 02:53 PM UTC-05:00"
+        },
+        {
+            "price": 12.99,
+            "date": "May 28 2024, 02:54 PM UTC-05:00"
+        },
+        {
+            "price": 12.99,
+            "date": "May 28 2024, 02:55 PM UTC-05:00"
+        },
+        {
+            "price": 12.95,
+            "date": "May 28 2024, 02:56 PM UTC-05:00"
+        },
+        {
+            "price": 12.96,
+            "date": "May 28 2024, 02:57 PM UTC-05:00"
+        },
+        {
+            "price": 12.94,
+            "date": "May 28 2024, 02:58 PM UTC-05:00"
+        },
+        {
+            "price": 12.93,
+            "date": "May 28 2024, 02:59 PM UTC-05:00"
+        },
+        {
+            "price": 12.83,
+            "date": "May 28 2024, 03:00 PM UTC-05:00"
+        },
+        {
+            "price": 12.73,
+            "date": "May 28 2024, 03:01 PM UTC-05:00"
+        },
+        {
+            "price": 12.81,
+            "date": "May 28 2024, 03:02 PM UTC-05:00"
+        },
+        {
+            "price": 12.87,
+            "date": "May 28 2024, 03:03 PM UTC-05:00"
+        },
+        {
+            "price": 12.86,
+            "date": "May 28 2024, 03:04 PM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 03:05 PM UTC-05:00"
+        },
+        {
+            "price": 12.87,
+            "date": "May 28 2024, 03:06 PM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 03:07 PM UTC-05:00"
+        },
+        {
+            "price": 12.87,
+            "date": "May 28 2024, 03:08 PM UTC-05:00"
+        },
+        {
+            "price": 12.88,
+            "date": "May 28 2024, 03:09 PM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 03:10 PM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 03:11 PM UTC-05:00"
+        },
+        {
+            "price": 12.9,
+            "date": "May 28 2024, 03:12 PM UTC-05:00"
+        },
+        {
+            "price": 12.89,
+            "date": "May 28 2024, 03:13 PM UTC-05:00"
+        },
+        {
+            "price": 12.91,
+            "date": "May 28 2024, 03:14 PM UTC-05:00"
+        },
+        {
+            "price": 12.92,
+            "date": "May 28 2024, 03:15 PM UTC-05:00"
+        },
+        {
+            "price": 12.92,
+            "date": "May 28 2024, 03:16 PM UTC-05:00"
+        }
+    ],
+    "knowledge_graph": {
+        "key_stats": {
+            "tags": [
+                {
+                    "text": "Index",
+                    "link": "https://www.google.com/finance/markets/indexes",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance_markets&hl=en&trend=indexes",
+                    "description": "A measure of the price performance of a collection of securities that are grouped to represent a certain market or sector"
+                }
+            ],
+            "stats": [
+                {
+                    "label": "Previous close",
+                    "description": "The last closing price",
+                    "value": "12.36"
+                },
+                {
+                    "label": "Day range",
+                    "description": "The range between the high and low prices over the past day",
+                    "value": "12.36 - 13.44"
+                },
+                {
+                    "label": "Year range",
+                    "description": "The range between the high and low prices over the past 52 weeks",
+                    "value": "11.52 - 23.08"
+                }
+            ]
+        },
+        "about": [
+            {
+                "title": "About",
+                "description": {
+                    "snippet": "VIX is the ticker symbol and the popular name for the Chicago Board Options Exchange's CBOE Volatility Index, a popular measure of the stock market's expectation of volatility based on S&P 500 index options. It is calculated and disseminated on a real-time basis by the CBOE, and is often referred to as the fear index or fear gauge.\nThe VIX traces its origin to the financial economics research of Menachem Brenner and Dan Galai. In a series of papers beginning in 1989, Brenner and Galai proposed the creation of a series of volatility indices, beginning with an index on stock market volatility, and moving to interest rate and foreign exchange rate volatility.\nIn their papers, Brenner and Galai proposed, \"[the] volatility index, to be named 'Sigma Index', would be updated frequently and used as the underlying asset for futures and options. ... A volatility index would play the same role as the market index plays for options and futures on the index.\" In 1992, the CBOE hired consultant Bob Whaley to calculate values for stock market volatility based on this theoretical work. ",
+                    "link": "https://en.wikipedia.org/wiki/VIX",
+                    "link_text": "Wikipedia"
+                }
+            }
+        ]
+    },
+    "news_results": [
+        {
+            "title": "Top news",
+            "items": [
+                {
+                    "snippet": "Stock market today: Trade setup for Nifty 50 to India VIX, five stocks to buy or sell on Wednesday — May 29 | Stock Market News",
+                    "link": "https://www.livemint.com/market/stock-market-news/stock-market-today-trade-setup-for-nifty-50-to-india-vix-five-stocks-to-buy-or-sell-on-wednesday-may-29-11716947586504.html",
+                    "source": "mint",
+                    "date": "36 minutes ago",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXgNU0Iafq8tdkZRx7ZZHU7D89xcehEQrVpCw5T27sMKs2ELdho5OJj-UiYtc"
+                },
+                {
+                    "snippet": "Sensex, Nifty 50 end in the red after hitting record highs; Vix up",
+                    "link": "https://www.business-standard.com/markets/stock-market-news/markets-hit-new-intraday-highs-but-end-lower-vix-rises-nearly-7-124052701287_1.html",
+                    "source": "Business Standard",
+                    "date": "1 day ago",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSgLSiwQqqJ7VDF5SYfe55oPJj5pbv8_M286TyGjirUd4Dgmmn43WHsrpJU8Ps"
+                },
+                {
+                    "snippet": "Mid-day Mood | Sensex hits 76,000, Nifty crosses 23,100 led by bank, IT stocks; VIX up 5%",
+                    "link": "https://www.moneycontrol.com/news/business/markets/mid-day-mood-sensex-nifty-in-green-amid-heightened-volatility-12732898.html",
+                    "source": "Moneycontrol",
+                    "date": "1 day ago",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRWbulyfoSd0SBE_6dNajeP_ZEOKAA6PGi568eBstmIs4QXhvmEay6fjDqzw-k"
+                },
+                {
+                    "snippet": "The market's 'fear gauge' is hitting rock bottom. Should you be scared?",
+                    "link": "https://www.investmentnews.com/investing/news/the-markets-fear-gauge-is-hitting-rock-bottom-should-you-be-scared-253863",
+                    "source": "InvestmentNews",
+                    "date": "7 hours ago",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_fjj76XMz8KO4HoXNbs3Cl3bnScq8nFJrVXp7zGLpIDshEVY8wNyI5SGaU0"
+                }
+            ]
+        },
+        {
+            "title": "By the numbers",
+            "items": [
+                {
+                    "snippet": "Stock market today: Nifty 50, Sensex end flat after hitting fresh record highs; India VIX jumps 7% | Stock Market News",
+                    "link": "https://www.livemint.com/market/stock-market-news/stock-market-today-nifty-50-sensex-end-flat-after-hitting-fresh-record-highs-11716803840180.html",
+                    "source": "mint",
+                    "date": "1 day ago"
+                },
+                {
+                    "snippet": "Stock market today: Trade setup for Nifty 50 to India VIX, eight stocks to buy or sell on Tuesday — May 28 | Stock Market News",
+                    "link": "https://www.livemint.com/market/stock-market-news/stock-market-today-trade-setup-for-nifty-50-to-india-vix-eight-stocks-to-buy-or-sell-on-tuesday-may-28-11716862522500.html",
+                    "source": "mint",
+                    "date": "23 hours ago"
+                },
+                {
+                    "snippet": "Benchmarks fall for third day amid poll jitters; Vix hits fresh 2-year high",
+                    "link": "https://www.business-standard.com/markets/news/benchmarks-decline-for-a-third-day-amidst-lok-sabha-election-jitters-124052801760_1.html",
+                    "source": "Business Standard",
+                    "date": "13 hours ago"
+                }
+            ]
+        },
+        {
+            "snippet": "Longest-streak ever! Fear gauge VIX rises for 11th day on election concerns",
+            "link": "https://m.economictimes.com/markets/stocks/news/longest-streak-ever-fear-gauge-vix-rises-for-11th-day-on-election-concerns/articleshow/109979619.cms",
+            "source": "The Economic Times",
+            "date": "2 weeks ago",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_P0VwG5WA9RlriNHw2esCNN-RPjX2YXCFaI0s1MppMM0h24eLJD_090tenjM"
+        },
+        {
+            "snippet": "Does rising India VIX mean a rising tide against BJP's win in Lok Sabha Election 2024? | Stock Market News",
+            "link": "https://www.livemint.com/market/stock-market-news/stock-market-news-does-rising-india-vix-mean-a-rising-tide-against-bjps-win-in-lok-sabha-election-2024-11715660570737.html",
+            "source": "mint",
+            "date": "1 week ago",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9AJKpAb-AfMX-taLD0tG87hhs3fRydSLUkHyIsWrUY5_xZWQ9xD_aOXowOP0"
+        },
+        {
+            "snippet": "Markets give up record gains in later trade; Nifty fails to hold 23000, Sensex below 75400",
+            "link": "https://www.financialexpress.com/market/markets-give-up-record-gains-in-later-trade-nifty-fails-to-hold-23000-sensex-below-75400nbsp-3503179/",
+            "source": "The Financial Express",
+            "date": "1 day ago",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfuhhqA8OIzI324XQtoJq4AwmqaNgR1FEcPJieM-WLXuzYtT4GULucpW5oxxo"
+        },
+        {
+            "snippet": "Nifty extended its winning streak for the fourth day in a row; India VIX slips below 21.5",
+            "link": "https://upstox.com/news/market-news/trading/nifty-closes-in-green-for-fourth-consecutive-day-reliance-infy-lead-the-rally/article-88654/",
+            "source": "Upstox",
+            "date": "6 days ago",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTrRLEl9UHtuzCv2RK2CjU4WVP2ZUvf0SI0amQsYDD4GN8e9lIBDSJ87vC0Jg"
+        }
+    ],
+    "discover_more": [
+        {
+            "title": "You may be interested in",
+            "items": [
+                {
+                    "stock": ".DJI:INDEXDJX",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+                    "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+                    "name": "Dow Jones Industrial Average",
+                    "price": "38,852.86",
+                    "extracted_price": 38852.86,
+                    "price_movement": {
+                        "percentage": 0.55,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": ".INX:INDEXSP",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+                    "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+                    "name": "S&P 500",
+                    "price": "5,306.04",
+                    "extracted_price": 5306.04,
+                    "price_movement": {
+                        "percentage": 0.025,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "TSLA:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=TSLA%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/TSLA:NASDAQ",
+                    "name": "Tesla Inc",
+                    "price": "$176.75",
+                    "extracted_price": 176.75,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 1.39,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "AAPL:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AAPL%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/AAPL:NASDAQ",
+                    "name": "Apple Inc",
+                    "price": "$189.99",
+                    "extracted_price": 189.99,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.0053,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "AMZN:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AMZN%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+                    "name": "Amazon.com Inc",
+                    "price": "$182.15",
+                    "extracted_price": 182.15,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.77,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "BABA:NYSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BABA%3ANYSE",
+                    "link": "https://www.google.com/finance/quote/BABA:NYSE",
+                    "name": "Alibaba Group Holding Ltd - ADR",
+                    "price": "$80.58",
+                    "extracted_price": 80.58,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.84,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "MSFT:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=MSFT%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/MSFT:NASDAQ",
+                    "name": "Microsoft Corp",
+                    "price": "$430.32",
+                    "extracted_price": 430.32,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.037,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "DIS:NYSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DIS%3ANYSE",
+                    "link": "https://www.google.com/finance/quote/DIS:NYSE",
+                    "name": "Walt Disney Co",
+                    "price": "$102.44",
+                    "extracted_price": 102.44,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.67,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "NXST:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NXST%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/NXST:NASDAQ",
+                    "name": "Nexstar Media Group Inc",
+                    "price": "$157.72",
+                    "extracted_price": 157.72,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.33,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "F:NYSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=F%3ANYSE",
+                    "link": "https://www.google.com/finance/quote/F:NYSE",
+                    "name": "Ford Motor Co",
+                    "price": "$11.68",
+                    "extracted_price": 11.68,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 3.95,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "VIX:INDEXCBOE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=VIX%3AINDEXCBOE",
+                    "link": "https://www.google.com/finance/quote/VIX:INDEXCBOE",
+                    "name": "VIX",
+                    "price": "12.92",
+                    "extracted_price": 12.92,
+                    "price_movement": {
+                        "percentage": 4.53,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": ".IXIC:INDEXNASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+                    "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+                    "name": "Nasdaq Composite",
+                    "price": "17,019.88",
+                    "extracted_price": 17019.88,
+                    "price_movement": {
+                        "percentage": 0.59,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "META:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=META%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/META:NASDAQ",
+                    "name": "Meta Platforms Inc",
+                    "price": "$479.92",
+                    "extracted_price": 479.92,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.36,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "SPY:NYSEARCA",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SPY%3ANYSEARCA",
+                    "link": "https://www.google.com/finance/quote/SPY:NYSEARCA",
+                    "name": "SPDR S&P 500 ETF Trust",
+                    "price": "$529.81",
+                    "extracted_price": 529.81,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.07,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "NFLX:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NFLX%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/NFLX:NASDAQ",
+                    "name": "Netflix Inc",
+                    "price": "$649.00",
+                    "extracted_price": 649.0,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.35,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "GOOG:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GOOG%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/GOOG:NASDAQ",
+                    "name": "Alphabet Inc Class C",
+                    "price": "$178.02",
+                    "extracted_price": 178.02,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.96,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "NVDA:NASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NVDA%3ANASDAQ",
+                    "link": "https://www.google.com/finance/quote/NVDA:NASDAQ",
+                    "name": "NVIDIA Corp",
+                    "price": "$1,140.59",
+                    "extracted_price": 1140.59,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 7.13,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "BA:NYSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BA%3ANYSE",
+                    "link": "https://www.google.com/finance/quote/BA:NYSE",
+                    "name": "Boeing Co",
+                    "price": "$175.08",
+                    "extracted_price": 175.08,
+                    "currency": "$",
+                    "price_movement": {
+                        "percentage": 0.32,
+                        "movement": "Up"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "People also search for",
+            "items": [
+                {
+                    "stock": ".INX:INDEXSP",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+                    "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+                    "name": "S&P 500",
+                    "price": "5,306.04",
+                    "extracted_price": 5306.04,
+                    "price_movement": {
+                        "percentage": 0.025,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": ".DJI:INDEXDJX",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+                    "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+                    "name": "Dow Jones Industrial Average",
+                    "price": "38,852.86",
+                    "extracted_price": 38852.86,
+                    "price_movement": {
+                        "percentage": 0.55,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "NIFTY_50:INDEXNSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NIFTY_50%3AINDEXNSE",
+                    "link": "https://www.google.com/finance/quote/NIFTY_50:INDEXNSE",
+                    "name": "NIFTY 50",
+                    "price": "22,888.15",
+                    "extracted_price": 22888.15,
+                    "price_movement": {
+                        "percentage": 0.19,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "RUT:INDEXRUSSELL",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=RUT%3AINDEXRUSSELL",
+                    "link": "https://www.google.com/finance/quote/RUT:INDEXRUSSELL",
+                    "name": "Russell 2000 Index",
+                    "price": "2,066.85",
+                    "extracted_price": 2066.85,
+                    "price_movement": {
+                        "percentage": 0.14,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": ".IXIC:INDEXNASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+                    "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+                    "name": "Nasdaq Composite",
+                    "price": "17,019.88",
+                    "extracted_price": 17019.88,
+                    "price_movement": {
+                        "percentage": 0.59,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "NDX:INDEXNASDAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NDX%3AINDEXNASDAQ",
+                    "link": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ",
+                    "name": "Nasdaq-100",
+                    "price": "18,869.44",
+                    "extracted_price": 18869.44,
+                    "price_movement": {
+                        "percentage": 0.32,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "SENSEX:INDEXBOM",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SENSEX%3AINDEXBOM",
+                    "link": "https://www.google.com/finance/quote/SENSEX:INDEXBOM",
+                    "name": "BSE SENSEX",
+                    "price": "75,170.45",
+                    "extracted_price": 75170.45,
+                    "price_movement": {
+                        "percentage": 0.29,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "DAX:INDEXDB",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DAX%3AINDEXDB",
+                    "link": "https://www.google.com/finance/quote/DAX:INDEXDB",
+                    "name": "DAX PERFORMANCE-INDEX",
+                    "price": "18,677.87",
+                    "extracted_price": 18677.87,
+                    "price_movement": {
+                        "percentage": 0.52,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "HSI:INDEXHANGSENG",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=HSI%3AINDEXHANGSENG",
+                    "link": "https://www.google.com/finance/quote/HSI:INDEXHANGSENG",
+                    "name": "Hang Seng Index",
+                    "price": "18,555.50",
+                    "extracted_price": 18555.5,
+                    "price_movement": {
+                        "percentage": 1.41,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "UKX:INDEXFTSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=UKX%3AINDEXFTSE",
+                    "link": "https://www.google.com/finance/quote/UKX:INDEXFTSE",
+                    "name": "FTSE 100 Index",
+                    "price": "8,254.18",
+                    "extracted_price": 8254.18,
+                    "price_movement": {
+                        "percentage": 0.76,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "NI225:INDEXNIKKEI",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NI225%3AINDEXNIKKEI",
+                    "link": "https://www.google.com/finance/quote/NI225:INDEXNIKKEI",
+                    "name": "Nikkei 225",
+                    "price": "38,803.30",
+                    "extracted_price": 38803.3,
+                    "price_movement": {
+                        "percentage": 0.13,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "KOSPI:KRX",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=KOSPI%3AKRX",
+                    "link": "https://www.google.com/finance/quote/KOSPI:KRX",
+                    "name": "KOSPI",
+                    "price": "2,696.43",
+                    "extracted_price": 2696.43,
+                    "price_movement": {
+                        "percentage": 0.97,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "IBOV:INDEXBVMF",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=IBOV%3AINDEXBVMF",
+                    "link": "https://www.google.com/finance/quote/IBOV:INDEXBVMF",
+                    "name": "IBOVESPA",
+                    "price": "123,779.54",
+                    "extracted_price": 123779.54,
+                    "price_movement": {
+                        "percentage": 0.58,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "SX5E:INDEXSTOXX",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SX5E%3AINDEXSTOXX",
+                    "link": "https://www.google.com/finance/quote/SX5E:INDEXSTOXX",
+                    "name": "EURO STOXX 50",
+                    "price": "5,030.35",
+                    "extracted_price": 5030.35,
+                    "price_movement": {
+                        "percentage": 0.57,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "INDIA_VIX:INDEXNSE",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=INDIA_VIX%3AINDEXNSE",
+                    "link": "https://www.google.com/finance/quote/INDIA_VIX:INDEXNSE",
+                    "name": "Nifty VIX",
+                    "price": "24.20",
+                    "extracted_price": 24.2,
+                    "price_movement": {
+                        "percentage": 4.32,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "SPGSCI:INDEXSP",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SPGSCI%3AINDEXSP",
+                    "link": "https://www.google.com/finance/quote/SPGSCI:INDEXSP",
+                    "name": "S&P GSCI",
+                    "price": "593.49",
+                    "extracted_price": 593.49,
+                    "price_movement": {
+                        "percentage": 2.03,
+                        "movement": "Up"
+                    }
+                },
+                {
+                    "stock": "XJO:INDEXASX",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=XJO%3AINDEXASX",
+                    "link": "https://www.google.com/finance/quote/XJO:INDEXASX",
+                    "name": "S&P/ASX 200",
+                    "price": "7,677.10",
+                    "extracted_price": 7677.1,
+                    "price_movement": {
+                        "percentage": 1.15,
+                        "movement": "Down"
+                    }
+                },
+                {
+                    "stock": "PX1:INDEXEURO",
+                    "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PX1%3AINDEXEURO",
+                    "link": "https://www.google.com/finance/quote/PX1:INDEXEURO",
+                    "name": "CAC 40",
+                    "price": "8,057.80",
+                    "extracted_price": 8057.8,
+                    "price_movement": {
+                        "percentage": 0.92,
+                        "movement": "Down"
+                    }
+                }
+            ]
+        }
+    ]
+}
